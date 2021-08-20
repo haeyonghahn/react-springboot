@@ -1,0 +1,47 @@
+# active spring profile
+spring:
+   profiles:
+      active: dev
+
+---
+# common spring configuration
+spring:
+   # mvc
+   mvc:
+      view:
+         prefix: /WEB-INF/views/
+         suffix: .jsp         
+   # http
+   http:
+      encoding:
+         charset: UTF-8
+         enabled: true
+         forced: true
+         forced-request: true
+         forced-response: true
+   # AOP
+   aop:
+      auto: true
+      proxy-target-class: true
+
+---
+# spring dev profile configuration
+spring:
+   profiles: dev
+   
+   # devtools enabled
+   devtools:
+      livereload:
+         enabled: true
+
+---
+# spring production profile configuration
+spring:
+   profiles: production
+
+---
+# server
+server:
+   port: 8082
+   servlet:
+      context-path: /

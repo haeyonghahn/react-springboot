@@ -4,8 +4,8 @@ module.exports = {
   mode: 'development',
   entry: path.resolve('src/index.js'),
   output: {
-    path: path.resolve('../backend/src/main/webapp/assets/js'),
-    // path: path.resolve('public'),
+    // path: path.resolve('../backend/src/main/webapp/assets/js'),
+    path: path.resolve('public'),
     filename: 'bundle.js'
   },
   module: {
@@ -16,8 +16,8 @@ module.exports = {
     }]
   },
   devServer: {
-    contentBase: path.resolve('../backend/src/main/webapp/assets/js'),
-    // contentBase: path.resolve('public'),
+    // contentBase: path.resolve('../backend/src/main/webapp/assets/js'),
+    contentBase: path.resolve('public'),
     host: '0.0.0.0',
     port: 8000,
     inline: true,

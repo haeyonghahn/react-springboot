@@ -4,9 +4,6 @@ import axios from 'axios';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-        message: ''
-    }
   }
   render() {
     const message = 'Hello React';
@@ -19,7 +16,7 @@ export default class App extends React.Component {
       // params: { id: 1 } 
     }) 
     .then(function(response) { 
-      console.log(response); 
+      console.log(response.data); 
     }) 
     .catch(function(error) { 
       console.log(error);

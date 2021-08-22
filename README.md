@@ -18,5 +18,6 @@
 - 그래서 개발환경을 설정할 때, webpack이랑 babel로 기초 환경 설정을 잡고 개발을 해야 한다.
 
 ## 출처
+- [https://github.com/haeyonghahn/react/tree/master/project-ex05](https://github.com/haeyonghahn/react/tree/master/project-ex05)
 - https://velog.io/@yon3115/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%95%84%EC%88%98-Webpack%EC%9D%B4%EB%9E%80
 - https://www.youtube.com/watch?v=rbmUFHZt3sg

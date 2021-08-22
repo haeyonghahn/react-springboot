@@ -19,5 +19,6 @@
 
 ## 출처
 - [https://github.com/haeyonghahn/react/tree/master/project-ex05](https://github.com/haeyonghahn/react/tree/master/project-ex05)
+- [https://github.com/haeyonghahn/react/tree/master/project-ex06](https://github.com/haeyonghahn/react/tree/master/project-ex06)
 - https://velog.io/@yon3115/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%95%84%EC%88%98-Webpack%EC%9D%B4%EB%9E%80
 - https://www.youtube.com/watch?v=rbmUFHZt3sg
